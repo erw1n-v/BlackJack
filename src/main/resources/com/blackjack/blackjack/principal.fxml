@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.blackjack.blackjack.principalController">
+   <children>
+      <Button fx:id="hacerApuesta" layoutX="107.0" layoutY="421.0" mnemonicParsing="false" onAction="#apuesta" prefHeight="30.0" prefWidth="120.0" text="Hacer Apuesta">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font></Button>
+      <Button fx:id="pedirCarta" layoutX="322.0" layoutY="421.0" mnemonicParsing="false" onAction="#pedirCarta" prefHeight="30.0" prefWidth="120.0" text="Pedir Carta">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font></Button>
+      <Button fx:id="plantarse" layoutX="486.0" layoutY="421.0" mnemonicParsing="false" onAction="#plantarse" prefHeight="30.0" prefWidth="120.0" text="Plantarse">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font></Button>
+      <Button fx:id="doblar" layoutX="649.0" layoutY="421.0" mnemonicParsing="false" onAction="#doblar" prefHeight="30.0" prefWidth="120.0" text="Doblar">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font></Button>
+      <TextField fx:id="cantidadApuesta" alignment="CENTER_RIGHT" layoutX="73.0" layoutY="368.0" prefHeight="30.0" prefWidth="180.0">
+         <font>
+            <Font name="Arial Bold Italic" size="24.0" />
+         </font></TextField>
+      <Label fx:id="saldoRestante" alignment="CENTER_RIGHT" layoutX="73.0" layoutY="328.0" prefHeight="31.0" prefWidth="187.0" text="5000">
+         <font>
+            <Font name="Arial Bold Italic" size="24.0" />
+         </font></Label>
+      <Label fx:id="jugadorCarta1" layoutX="365.0" layoutY="276.0" prefHeight="90.0" prefWidth="100.0">
+         <font>
+            <Font name="Arial Bold Italic" size="24.0" />
+         </font></Label>
+      <Label fx:id="jugadorCarta2" layoutX="531.0" layoutY="276.0" prefHeight="90.0" prefWidth="100.0">
+         <font>
+            <Font name="Arial Bold Italic" size="24.0" />
+         </font></Label>
+      <Label fx:id="crupierCarta1" layoutX="364.0" layoutY="114.0" prefHeight="90.0" prefWidth="100.0">
+         <font>
+            <Font name="Arial Bold Italic" size="24.0" />
+         </font></Label>
+      <Label fx:id="crupierCarta2" layoutX="531.0" layoutY="114.0" prefHeight="90.0" prefWidth="100.0">
+         <font>
+            <Font name="Arial Bold Italic" size="24.0" />
+         </font></Label>
+      <Button fx:id="salir2" layoutX="108.0" layoutY="478.0" mnemonicParsing="false" onAction="#cerrarVentana2" prefHeight="30.0" prefWidth="120.0" text="Salir">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
